@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  /* zera a margin */
+  padding: 0;
+  /* zera a padding */
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+  position: sticky;
+  top: 0;
+
+}
+
+#cabecalho {
+  box-shadow: 0px 20px 20px #00000014;
+  width: 100%;
+  height: auto;
+
+}
+
+#topo {
+  text-align: center;
+  padding: 5px;
+  background-color: #3f4e2e;
+
+}
+
+#blocologo {
+  padding-right: 90%;
+
+}
+
+#blocologo img {
+  width: 12%;
+  max-width: 100px;
+  min-width: 30px;
+  background-color: transparent;
+
+}
+
+#blocomenu {
+  text-align: center;
+  background-color: #252525;
+
+}
+
+#menu {
+  display: inline-block;
+  padding: 10px;
+
+}
+
+#menu a {
+  font-family: serif;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 50px;
+  color: white;
+
+}
+
+#menu a:hover {
+  color: #688C1B;
+  transition: 0.10s;
+  
+}
+
+#conteiner {
+  padding: 10%;
+  background: #252525 url(../IMG/gta_V_BackGround.jpg) center center/cover no-repeat fixed;
+
+}
+
+h1 {
+  font-size: 40px;
+
+}
+
+h3 {
+  font-size: 22px;
+
+}
+
+h1,
+h2 {
+  text-align: center;
+  text-shadow: -4px 2px 7px #0000001f;
+
+}
+
+h1,
+h2,
+h3 {
+  font-family: serif;
+  padding: 15px 5px;
+
+}
+
+.blocoimg img {
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: -5px 7px 7px #00000014;
+  
+
+}
+
+.blocoimg2 {
+  text-align: center;
+
+}
+
+.blocoimg2 img {
+  width: 50%;
+  border-radius: 7px;
+  padding: 10px 10px 30px 10px;
+
+
+}
+
+#blococonteudo {
+  display: block;
+  background-color: #dbdbdb;
+  max-width: 500px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: -5px 5px 16px #0000001c;
+
+}
+
+label {
+  display: inline-block;
+
+}
+
+#usuario,
+#mail,
+#senha,
+#texto, 
+#datanasc{
+  display: block;
+  width: 70%;
+  margin: auto;
+  /*background-color: pink;*/
+
+}
+
+
+input {
+  display: inline-block;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 7px;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-shadow: 3px 3px 4px 0px #0000000f;
+
+}
+
+#logar {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  background-color: #fcaf17;
+
+}
+
+#logar:hover {
+  color: #fff;
+  background-color: #f7931e;
+  transition: 0.25s;
+
+}
+
+#naomenbro {
+  text-align: center;
+}
+
+.textonaomenbro {
+  display: inline-block;
+  
+}
+
+.textonaomenbro a {
+  text-decoration: none;
+  color: #a85a00;
+
+}
+
+.textonaomenbro a:hover {
+  color: #cf7004;
+  transition: 0.10s;
+
+}
+
+#blococonteudo p {
+  padding-bottom: 15px;
+
+}
+
+#rodape {
+  padding: 3% 20%;
+  background-color: #252525;
+  box-shadow: 0px -20px 20px #00000014;
+
+}
+
+#blocorodape {
+  background-color: transparent;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+
+}
+
+#blocoimgrodape {
+  display: block;
+  width: 10%;
+  min-width: 75px;
+  max-width: 125px;
+  float: left;
+
+}
+
+#blocoimgrodape img{
+  width: 100%;
+
+}
+
+#blocotextorodape{
+  display: block;
+  width: 500px;
+  float: right;
+
+}
+
+#blocotextorodape h3,
+#blocotextorodape p {
+  color: #fff;
+
+}
+textarea {
+  font-size: .8rem;
+  letter-spacing: 1px;
+}
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px #999;
+}
+
+@media screen and (max-width:992px) and (min-width:668px) {
+  #menu a {
+    padding: 0 25px;
+  
+  }
+
+  #blocorodape {
+    height: 300px;
+  
+  }
+
+  #blocotextorodape{
+    display: block;
+    width: 310px;
+    float: right;
+  
+  }
+
+}
+
+@media screen and (max-width:667px) {
+  #blocologo {
+    padding-right: 0;
+  
+  }
+
+  #menu {
+    width: 100%;
+    padding: 0;
+
+  }
+
+  #menu a {
+    display: block;
+    padding: 10px;
+  
+  }
+
+  #usuario {
+    display: block;
+    width: 75%;
+    margin: auto;
+  
+  }
+  
+  #senha {
+    display: block;
+    width: 75%;
+    margin: auto;
+  
+  }
+
+  #mail {
+    display: block;
+    width: 75%;
+    margin: auto;
+  
+  }
+  #email{
+  display: block;
+  width: 75%;
+  margin: auto;
+}
+  #datanascimento{
+    display: block;
+    width: 75%;
+    margin: auto;
+  
+  }
+  
+  #username{
+    display: block;
+    width: 75%;
+    margin: auto;
+  }
+  #password{
+    display: block;
+    width: 75%;
+    margin: auto;
+  }
+
+  #blocorodape {
+    width: 100%;
+    height: auto;
+    text-align: none;
+    margin: auto;
+  
+  }
+
+  #blocoimgrodape {
+    display: inline-block;
+    float: none;
+  
+  }
+
+  #blocotextorodape {
+    display: inline-block;
+    width: auto;
+    float: none;
+  
+  }
+
+}
+
+@media screen and (max-width:457px) {
+  #menu a {
+    padding: 15px;
+  
+  }
+
+
+}
+
+@media screen and (max-width:357px) {
+
+}
